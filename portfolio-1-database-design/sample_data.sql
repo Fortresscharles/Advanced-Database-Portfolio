@@ -1,8 +1,8 @@
 
 INSERT INTO branch (name, address) VALUES
-('Riverbend Main', '12 Market Street'),
-('Riverbend North', '48 Oak Avenue'),
-('Riverbend East', '7 Harbour Road');
+('Fortress Main', '12 Market Street'),
+('Fortress North', '48 Oak Avenue'),
+('Fortress East', '7 Harbour Road');
 
 INSERT INTO staff (branch_id, full_name, role) VALUES
 (1, 'Amara Chukwu', 'Librarian'),

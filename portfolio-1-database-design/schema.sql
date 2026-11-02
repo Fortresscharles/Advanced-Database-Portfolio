@@ -76,11 +76,7 @@ CREATE TABLE fine (
     FOREIGN KEY (loan_id) REFERENCES loan(loan_id)
 ) ENGINE=InnoDB;
 
--- Helpful indexes beyond the automatic PK indexes (justified further in Portfolio 2)
--- NOTE: MySQL does not support partial/filtered indexes (the Postgres
--- "WHERE return_date IS NULL" clause used in the earlier design), so this
--- is a full index on due_date instead. The query itself still filters on
--- return_date IS NULL at query time; it just can't be baked into the index.
+
 CREATE INDEX idx_loan_borrower ON loan(borrower_id);
 CREATE INDEX idx_loan_copy ON loan(copy_id);
 CREATE INDEX idx_loan_due_date ON loan(due_date);
