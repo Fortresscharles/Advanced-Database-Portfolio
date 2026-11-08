@@ -1,12 +1,6 @@
 -- =====================================================================
 -- Portfolio 3: Transactions and Concurrency — Fortress Community Library
--- Target engine: MySQL 8.0+ or MariaDB 10.4+ (as bundled with XAMPP) —
--- both use the InnoDB storage engine, which is required for all of this
--- (InnoDB is the only engine here that supports transactions, row
--- locking, and foreign keys); confirm tables use ENGINE=InnoDB as set in
--- schema.sql. Everything below runs identically on MySQL and MariaDB —
--- this file, unlike Portfolio 2's EXPLAIN/ANALYZE syntax, needs no
--- engine-specific changes.
+-- Target engine:MariaDB 10.4+ (as bundled with XAMPP) 
 -- =====================================================================
 
 -- -----------------------------------------------------------------

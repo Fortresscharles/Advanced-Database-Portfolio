@@ -2,7 +2,7 @@
 
 All demos below were run against a real MariaDB 10.4.28 instance (XAMPP)
 via phpMyAdmin, using two separate browser tabs as two independent
-database sessions. Real screenshots for every step are in `screenshots/`.
+database sessions.Screenshots for every step are in `screenshots/`.
 
 ## Known phpMyAdmin issues encountered
 
