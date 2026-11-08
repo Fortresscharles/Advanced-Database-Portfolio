@@ -157,13 +157,13 @@ See `schema.sql` in this folder for the full implementation.
 Schema and data were loaded and verified against a real MariaDB 10.4.28
 instance (XAMPP) via phpMyAdmin.
 
-![MariaDB version check](screenshots/p1_mariadb_version.png)
+![MariaDB version check](screenshot/p1_mariadb_version.png)
 
-![Loan table data verified](screenshots/p1_loan_data_verify.png)
+![Loan table data verified](screenshot/p1_loan_data_verify.png)
 
 ### `loan` table structure (live)
 
-![Loan table column structure](screenshots/p1_table_structure.png)
+![Loan table column structure](screenshot/p1_table_structure.png)
 
 All 7 designed columns are confirmed present with correct types: the
 primary key (`loan_id`, AUTO_INCREMENT), three foreign keys (`copy_id`,
@@ -174,7 +174,7 @@ only marked returned once.
 
 ### `loan` table indexes (live)
 
-![Loan table indexes](screenshots/p1_indexes.png)
+![Loan table indexes](screenshot/p1_indexes.png)
 
 Confirms all 5 designed indexes exist on the live server: the `PRIMARY`
 key plus `idx_loan_borrower`, `idx_loan_copy`, and `idx_loan_due_date`
