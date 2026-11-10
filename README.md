@@ -1,7 +1,9 @@
 # Advanced Database Systems Portfolio — Fortress Community Library
 
 **Course:** MIT 8103 Advanced Database Systems, MIT MIVA Open University
+
 **Student:** FORTRESS CHARLES CHUKWUMA
+
 **Case Study:** Fortress Community Library (simulated public library system)
 
 ## Repository structure
